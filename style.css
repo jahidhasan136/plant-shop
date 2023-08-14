@@ -1,0 +1,165 @@
+* {
+    margin: 0 auto;
+    font-family: 'Rubik', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background: #0C3823;
+    padding: 46px 0;
+}
+
+.header_link a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.header_link a:hover {
+    color: white;
+}
+
+.header_button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 24px;
+    border-radius: 50px;
+    background: #62BD69;
+    border: 0;
+    cursor: pointer;
+}
+
+.banner {
+    background: #0C3823;
+}
+
+.banner_title {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.banner_img {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.banner_img h3 {
+    font-size: 24px;
+    /* width: 50%; */
+    text-transform: capitalize;
+    color: #B6C3BD;
+}
+
+.banner_img_two {
+    display: grid;
+    gap: 16px;
+}
+
+.img_two {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 12px 0;
+    padding-right: 33px;
+}
+
+.img_two h4 {
+    margin-bottom: 12px;
+    color: white;
+}
+
+.img_two h5 {
+    margin-bottom: 16px;
+    color: #B6C3BD;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.img_two p {
+    color: #B6C3BD;
+}
+
+.img_three {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 5px 0;
+    padding-right: 18px;
+}
+
+.img_three h4 {
+    margin-bottom: 12px;
+    color: white;
+}
+
+.img_three h5 {
+    margin-bottom: 16px;
+    color: #B6C3BD;
+    text-transform: capitalize;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.img_three p {
+    color: #B6C3BD;
+}
+
+.banner_dollar {
+    color: white;
+}
+
+.img_one{
+    position: relative;
+}
+.img_one p{
+    position: absolute;
+    color: #B6C3BD;
+    font: 24px;
+    background-color: #0C3823;
+    border-radius: 100%;
+    padding: 46px;
+    top: 33%;
+    left: -15%;
+    text-align: center;
+    border-left: 3px solid #2A5641;
+}
+
+.banner_button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 28px;
+    border-radius: 50px;
+    background: #F60;
+    color: white;
+    font-weight: 500;
+    border: 0;
+    top: 55%;
+    left: -15%;
+}
+
+.left_img{
+    display: grid;
+    align-self: baseline;
+}
