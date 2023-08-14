@@ -37,8 +37,11 @@ header {
     cursor: pointer;
 }
 
+/* Banner Css Start */
+
 .banner {
     background: #0C3823;
+    padding-bottom: 60px;
 }
 
 .banner_title {
@@ -94,7 +97,7 @@ header {
     line-height: 18px;
 }
 
-.img_two p {
+.img_two {
     color: #B6C3BD;
 }
 
@@ -128,10 +131,11 @@ header {
     color: white;
 }
 
-.img_one{
+.img_one {
     position: relative;
 }
-.img_one p{
+
+.img_one p {
     position: absolute;
     color: #B6C3BD;
     font: 24px;
@@ -157,9 +161,154 @@ header {
     border: 0;
     top: 55%;
     left: -15%;
+    cursor: pointer;
 }
 
-.left_img{
+.left_img {
     display: grid;
     align-self: baseline;
+}
+
+
+/* Banner Css End */
+
+
+/* Plant Collection Start */
+
+.plant_collection {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.plant_img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 65px;
+}
+.plant_img img{
+    margin-bottom: 40px;
+}
+
+.plant_collection h2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.plant_collection h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #6A7872;
+}
+
+.plant_img_one {
+    border-radius: 35px;
+    background: #F2F2F2;
+    padding: 40px 85px;
+}
+
+.plant_img_one:hover {
+    background: #62BD69;
+}
+
+
+.plant_img_one h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.plant_img_one p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.plant_img_two {
+    border-radius: 35px;
+    background: #F2F2F2;
+    padding: 40px 85px;
+}
+
+.plant_img_two:hover {
+    background: #62BD69;
+}
+
+
+.plant_img_two h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.plant_img_two p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.plant_img_three {
+    border-radius: 35px;
+    background: #F2F2F2;
+    padding: 40px 85px;
+}
+
+.plant_img_three:hover {
+    background: #62BD69;
+}
+
+.plant_img_three h3 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.plant_img_three p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.plant_collection_dollar {
+    color: #F60;
+}
+
+
+/* Plant Collection End */
+
+/* Love Plants Start */
+
+
+.love_plants{
+    background: #25523B;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 53px 0;
+}
+
+.love_plants h1{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.love_plants h4{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #B6C3BD;
+}
+
+.love_button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 28px;
+    border-radius: 50px;
+    background: #F60;
+    color: white;
+    font-weight: 500;
+    border: 0;
+    font-size: 18px;
+    cursor: pointer;
 }
