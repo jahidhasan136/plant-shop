@@ -317,7 +317,55 @@ header {
 /* Love Plants End */
 
 
-footer{
+/* Indoor plants Start */
+
+.indoor_plant {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.indoor_plant h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.indoor_plant p {
+    font-size: 24px;
+    color: #6A7872;
+    margin-bottom: 30px;
+}
+
+.indoor_img {
+    position: relative;
+}
+
+.indoor_img2 {
+    position: absolute;
+    bottom: -35px;
+    left: -35px;
+}
+
+.indoor_button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 28px;
+    border-radius: 50px;
+    background: #F60;
+    color: white;
+    font-weight: 500;
+    border: 0;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+/* Footer Section Start */
+
+footer {
     background-color: #25523B;
     color: white;
 }
@@ -396,30 +444,31 @@ footer{
     color: #25523B;
     cursor: pointer;
 }
+
 .footer_third i:hover {
     background-color: #62BD69;
 }
 
-.footer_line{
+.footer_line {
     border-bottom: 1px solid #517562;
     margin-bottom: 25px;
     max-width: 82%;
 }
 
-.footer_section_two{
+.footer_section_two {
     display: flex;
     justify-content: space-between;
     padding-bottom: 32px;
     color: rgba(255, 255, 255, 0.70);
 }
 
-.footer_policy{
+.footer_policy {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.company_name{
+.company_name {
     font-weight: bold;
     color: white;
 }
