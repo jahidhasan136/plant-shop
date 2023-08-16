@@ -3,12 +3,21 @@
     font-family: 'Rubik', sans-serif;
 }
 
-header {
+header{
+    display: flex;
+    padding: 46px 0;
+    background-color: #0C3823;
+    color: white;
+    align-items: center;
+}
+
+/* header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background: #0C3823;
     padding: 46px 0;
-}
+} */
 
 .header_link a {
     text-decoration: none;
