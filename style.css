@@ -317,13 +317,86 @@ header {
 /* Love Plants End */
 
 
+/* Best Seller Start */
+
+
+.best_seller {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    /* margin-bottom: 320px; */
+    margin: 100px 0;
+}
+
+.best_seller img{
+    margin-bottom: -100px;
+    display: flex;
+    justify-content: center;
+}
+
+.img_bg {
+    width: 330px;
+    height: 250px;
+    border-radius: 35px;
+    background: #F2F2F2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.seller_content{
+    margin: 120px 0;
+    font-weight: 600;
+}
+
+.seller_content h4{
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.seller_content p{
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.seller_second_col{
+    text-align: center;
+}
+.seller_second_col h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.seller_second_col p{
+    font-size: 24px;
+    color: #6A7872;
+    margin-bottom: 97px;
+}
+.seller_second_col h3{
+    border: 1.5px solid #DDD;
+    border-radius: 50px;
+    font-size: 24px;
+    padding: 24px 40px;
+    margin-bottom: 16px;
+    color: #6A7872;
+}
+.seller_second_col h3:hover{
+    background-color: #FF6600;
+    color: white;
+}
+
+
+
+/* Best Seller End */
+
+
 /* Indoor plants Start */
 
 .indoor_plant {
     margin: 100px 185px;
 }
 
-.indoor_plant_bg{
+.indoor_plant_bg {
     padding: 80px;
     border-radius: 32px;
     background: #F2F2F2;
@@ -413,6 +486,7 @@ footer {
     margin-bottom: 30px;
     letter-spacing: 1.6px;
     line-height: 47px;
+    font-size: 32px;
 }
 
 .footer_two input {

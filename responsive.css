@@ -1,0 +1,217 @@
+@media (max-width: 1440px) {
+
+    .plant_img {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .indoor_plant h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .indoor_plant p {
+        font-size: 20px;
+        margin-bottom: 20px;
+        line-height: 32px;
+    }
+}
+
+@media (max-width: 1240px) {
+    .banner h1 {
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+    .banner_img h3 {
+        font-size: 16px;
+    }
+
+    .img_one p {
+        position: absolute;
+        color: #B6C3BD;
+        font: 24px;
+        background-color: #0C3823;
+        border-radius: 100%;
+        padding: 30px;
+        top: 33%;
+        left: -12%;
+        text-align: center;
+        border-left: 3px solid #2A5641;
+    }
+
+
+    .seller_second_col h1 {
+        font-size: 40px;
+    }
+
+    .seller_second_col p {
+        font-size: 20px;
+        color: #6A7872;
+        margin-bottom: 77px;
+    }
+
+    .seller_second_col h3 {
+        font-size: 20px;
+        padding: 20px 30px;
+        margin-bottom: 16px;
+    }
+
+
+    .indoor_plant_bg {
+        /* padding: 80px; */
+        border-radius: 32px;
+        background: #F2F2F2;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .indoor_button {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .best_seller{
+        margin: 50px 0;
+    }
+
+    .seller_second_col h1{
+        font-size: 30px; 
+    }
+
+    .seller_second_col p{
+        font-size: 16px;
+        margin-bottom: 57px;
+    }
+
+    .seller_second_col h3 {
+        font-size: 10px;
+        padding: 10px 16px;
+        margin-bottom: 10px;
+    }
+
+    .img_bg {
+        width: 230px;
+        height: 200px;
+        border-radius: 35px;
+        background: #F2F2F2;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner_img {
+        display: grid;
+        gap: 30px;
+    }
+
+    .love_plants h1 {
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: capitalize;
+    }
+    
+    .love_plants h4 {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 30px;
+        color: #B6C3BD;
+    }
+
+
+    .footer_section_one {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: normal;
+    }
+    .footer_two input {
+        width: 350px;
+        padding: 28px 10px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.20);
+        border: 0;
+        color: white;
+        font-size: 18px;
+    }
+    .footer_third{
+        display: flex;
+    }
+    .footer_two h1 {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+}
+
+
+@media (max-width: 768px){
+
+    .best_seller {
+        display: grid;
+        justify-content: center;
+        align-items: end;
+        margin: 50px 0;
+    }
+
+    .seller_img_one{
+        margin-bottom: 50px;
+    }
+
+    .indoor_plant {
+        margin: 50px 100px;
+    }
+    .footer_two input {
+        width: 250px;
+        padding: 28px 10px;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.20);
+        border: 0;
+        color: white;
+        font-size: 18px;
+    }
+    .footer_third{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+
+@media (max-width: 425px){
+
+    .indoor_plant {
+        margin: 0;
+    }
+
+    .indoor_plant h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .indoor_plant p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    footer{
+        padding: 10px;
+    }
+    .footer_section_one {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: normal;
+        padding-top: 0;
+        margin-top: 50px;
+    }
+    .footer_two h1 {
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .footer_third{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px;
+    }
+}
