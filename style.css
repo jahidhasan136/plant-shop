@@ -320,9 +320,15 @@ header {
 /* Indoor plants Start */
 
 .indoor_plant {
+    margin: 100px 185px;
+}
+
+.indoor_plant_bg{
+    padding: 80px;
+    border-radius: 32px;
+    background: #F2F2F2;
     display: flex;
     justify-content: space-between;
-    margin: 100px 0;
 }
 
 .indoor_plant h1 {
@@ -361,6 +367,8 @@ header {
     cursor: pointer;
 }
 
+
+/* Indoor plants End */
 
 
 /* Footer Section Start */
