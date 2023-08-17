@@ -211,13 +211,22 @@ header{
     color: #6A7872;
 }
 
-.plant_img_one {
-    border-radius: 35px;
-    background: #F2F2F2;
-    padding: 40px 85px;
+.plant_img_one img{
+    margin-bottom: -100px;
 }
 
-.plant_img_one:hover {
+.plant_bg_one {
+    border-radius: 35px;
+    background: #F2F2F2;
+    width: 384px;
+    height: 210px;
+    padding-bottom: 50px;
+    border-radius: 35px;
+    display: grid;
+    align-content: end;
+}
+
+.plant_bg_one:hover {
     background: #62BD69;
 }
 
@@ -233,48 +242,6 @@ header{
     font-weight: 600;
 }
 
-.plant_img_two {
-    border-radius: 35px;
-    background: #F2F2F2;
-    padding: 40px 85px;
-}
-
-.plant_img_two:hover {
-    background: #62BD69;
-}
-
-
-.plant_img_two h3 {
-    font-size: 32px;
-    font-weight: 600;
-    margin-bottom: 24px;
-}
-
-.plant_img_two p {
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.plant_img_three {
-    border-radius: 35px;
-    background: #F2F2F2;
-    padding: 40px 85px;
-}
-
-.plant_img_three:hover {
-    background: #62BD69;
-}
-
-.plant_img_three h3 {
-    font-size: 32px;
-    font-weight: 600;
-    margin-bottom: 24px;
-}
-
-.plant_img_three p {
-    font-size: 14px;
-    font-weight: 600;
-}
 
 .plant_collection_dollar {
     color: #F60;
