@@ -3,10 +3,13 @@
     font-family: 'Rubik', sans-serif;
 }
 
+.head_ban{
+    background-color: #0C3823;
+}
+
 header{
     display: flex;
     padding: 46px 0;
-    background-color: #0C3823;
     color: white;
     align-items: center;
 }
@@ -44,12 +47,20 @@ header{
     background: #62BD69;
     border: 0;
     cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
 }
+
+.header_button:hover{
+    scale: 1.1;
+    transition: all;
+    transition-duration: 1s;
+}
+
 
 /* Banner Css Start */
 
 .banner {
-    background: #0C3823;
     padding-bottom: 60px;
 }
 
@@ -171,6 +182,14 @@ header{
     top: 55%;
     left: -15%;
     cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.banner_button:hover{
+    scale: 1.1;
+    transition: all;
+    transition-duration: 1s;
 }
 
 .left_img {
@@ -288,6 +307,14 @@ header{
     border: 0;
     font-size: 18px;
     cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.love_button:hover{
+    scale: 1.1;
+    transition: all;
+    transition-duration: 1s;
 }
 
 /* Love Plants End */
@@ -414,6 +441,14 @@ header{
     border: 0;
     font-size: 18px;
     cursor: pointer;
+    transition: all;
+    transition-duration: 1s;
+}
+
+.indoor_button:hover{
+    scale: 1.1;    
+    transition: all;
+    transition-duration: 1s;
 }
 
 
